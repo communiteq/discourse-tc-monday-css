@@ -181,23 +181,6 @@ a.discourse-tag.list-vote-count {
     padding: 10px 20px;
 }
 
-
-/* All category banner text is black */
-.category-title-contents {
-    color: #000;
-}
-
-/* except for these: */
-.category-announcements,
-.category-guidelines,
-.category-nonprofits,
-.category-platform-discussions-special-workflows-and-use-cases,
-.category-platform-discussions-platform-discussion {
-    .category-title-contents {
-        color: #fff;
-    }
-}
-
 /* Calendar styling */
 #upcoming-events-calendar.fc-unthemed .fc-bg td.fc-today, #category-events-calendar.fc-unthemed .fc-bg td.fc-today {
     background-color: #eceff8;
