@@ -97,6 +97,9 @@
 header .header-buttons {
     order: 10; /* move login to the right */
     button.login-button, button.login-button:hover {
+        padding: 6px 16px;
+        font-size: 14px;
+        font-family: Poppins;
         svg {  /* remove icon */
             display: none;
         }
