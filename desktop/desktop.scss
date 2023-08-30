@@ -44,7 +44,11 @@
 
 #new-create-topic {
     background: #6161ff;
-    color: #ffffff;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 7px 16px;
+    font-family: Poppins;
 }
 
 
@@ -90,3 +94,20 @@
     padding-bottom: 64px;
 }
 
+/* hide sign up button, fix log in button */
+
+header .header-buttons {
+    /* remove icon and background from login button */
+    button.login-button, button.login-button:hover {
+        order: 1;
+        color: #545767;
+        background-color: transparent;
+        svg {
+            display: none;
+        }
+    }
+    button.sign-up-button {
+        padding: 6px 32px;
+        order: 2;
+    }
+}

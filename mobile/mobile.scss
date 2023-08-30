@@ -94,25 +94,14 @@
 }
 
 /* hide sign up button, fix log in button */
-
 header .header-buttons {
-    button.sign-up-button {
-        display: none;
-    }
+    order: 10; /* move login to the right */
     button.login-button, button.login-button:hover {
-        background-color: transparent;
-        padding: 0;
-        border: none;
-        .d-button-label {
+        svg {  /* remove icon */
             display: none;
         }
-        
-        svg, svg:hover {
-            
-            height: 1.5em;
-            width: 1.5em;
-        }
     }
+
 }
 
 /* Also, change
@@ -129,6 +118,16 @@ body.landing-page .bullet-x-indicators {
 // make logo smaller
 
 .d-header #site-logo {
-    height: 15px;
-    margin-left: 18px;
+    height: 25px;
+}
+
+.anon .d-header .title {
+    #site-logo.logo-mobile {
+        clip-path: inset(0 115px 0 0);
+    }
+}
+
+/* hide new topic button on mobile */
+.header-buttons #new-create-topic {
+    display: none;
 }

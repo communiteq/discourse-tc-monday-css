@@ -270,28 +270,6 @@ a.discourse-tag.list-vote-count {
     }
 }
 
-/* hide sign up button, fix log in button */
-
-header .header-buttons {
-    button.sign-up-button {
-        display: none;
-    }
-    button.login-button, button.login-button:hover {
-        background-color: transparent;
-        padding: 0;
-        border: none;
-        .d-button-label {
-            display: none;
-        }
-        
-        svg, svg:hover {
-            
-            height: 1.5em;
-            width: 1.5em;
-        }
-    }
-}
-
 .landing-page .navigation-container {
     display: none;
 }
