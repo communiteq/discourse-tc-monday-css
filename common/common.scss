@@ -99,30 +99,7 @@ body, h1, h2, h3, h4, h5, h6, a, p {
     color: #ffffff;
 }
 
-#navigation-bar {
-    li.nav-item_all-requests,
-    li.nav-item_under-consideration,
-    li.nav-item_on-roadmap,
-    li.nav-item_not-on-roadmap,
-    li.nav-item_released {
-        display: none;
-    }
-}
-  
-body.category-submit-an-idea #navigation-bar, body.category-feature-requests #navigation-bar {
-    li.nav-item_top,
-    li.nav-item_latest,
-    li.nav-item_new {
-        display: none
-    }
-    li.nav-item_all-requests,
-    li.nav-item_under-consideration,
-    li.nav-item_on-roadmap,
-    li.nav-item_not-on-roadmap,
-    li.nav-item_released {
-        display: flex;
-    }
-}
+
   
 body.category-submit-an-idea .category-breadcrumb, body.category-feature-requests .category-breadcrumb {
     li {
