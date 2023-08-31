@@ -304,31 +304,6 @@ a.discourse-tag.list-vote-count {
     display: none;
 }
 
-/*******************************************************************************/
-/* Category banner CSS */
-/*******************************************************************************/
-
-.bullet-x-indicators {
-    display: none;
-    justify-content: center;
-    gap: 10px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-
-.bullet-x {
-    width: 10px;
-    height: 10px;
-    border: 1px solid #676879;
-    border-radius: 50%;
-    cursor: pointer;
-}
-    
-.bullet-x[data-index="0"] {
-    background-color: #6161ff;
-    border: 1px solid #6161ff;
-}
-
 /* Remove grey border on showcased categories on homepage */
 .custom-homepage-columns .showcase-main {
     border: none;
