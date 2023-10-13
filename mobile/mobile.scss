@@ -21,9 +21,9 @@
     background: #F0F3FF;
 }
 
-.d-modal.create-account .login-welcome-header, 
-.d-modal.login-modal .login-welcome-header, 
-.invites-show .login-welcome-header, 
+.d-modal.create-account .login-welcome-header,
+.d-modal.login-modal .login-welcome-header,
+.invites-show .login-welcome-header,
 .admin-invite-page .login-welcome-header {
     background: inherit;
     .waving-hand {
@@ -56,7 +56,7 @@
     margin: 0 auto;
 }
 
-.create-account-form, 
+.create-account-form,
 .d-modal.create-account .login-form,
 .d-modal.create-account .modal-footer,
 .login-modal-body,
@@ -166,3 +166,43 @@ header .header-buttons {
         font-weight: 400;
     }
 }
+
+/**** Category navigation dropdowns and filters ****/
+
+
+#main-outlet .list-controls .container {
+    .category-breadcrumb {
+        order: 1;
+    }
+    ul#navigation-bar {
+        order: 2;
+    }
+    .navigation-controls {
+        order: 3;
+    }
+    .list-controls .nav-pills > li > a {
+        background-color: var(--secondary);
+        color: var(--primary);
+    }
+}
+
+.mobile-view .list-controls .nav-pills > li,
+.list-controls .combo-box .combo-box-header {
+    border-color: #dcdfec;
+    color: #323338;
+}
+.mobile-view .list-controls .nav-pills > li > a {
+    /* make sure caret is aligned right */
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* This ensures vertical alignment in case your elements have different heights */
+
+    background-color: var(--secondary);
+    color: #323338;
+    width: 172px;
+    .d-icon {
+        color: inherit;
+        float: right;
+    }
+}
+

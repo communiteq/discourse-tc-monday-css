@@ -12,7 +12,7 @@
     padding-right: 0;
     float: none;
     padding-bottom: 2em;
-    
+
 }
 
 .voting-wrapper {
@@ -109,5 +109,37 @@ header .header-buttons {
     button.sign-up-button {
         padding: 6px 32px;
         order: 2;
+    }
+}
+
+/**** Category navigation dropdowns and filters ****/
+
+.navigation-container {
+    .category-breadcrumb {
+        order: 1;
+        flex: 80%;
+    }
+    .navigation-controls {
+        order: 2;
+    }
+    ul#navigation-bar {
+        order: 3;
+        flex: 20%;
+    }
+    .nav-pills > li, .nav-pills > li.active {
+        border: none;
+        a.active, a.active:hover {
+            background-color: var(--secondary);
+            color: #6161ff;
+            font-weight: bold;
+            text-decoration: underline;
+            text-underline-offset: 0.4em;
+        }
+        a:hover {
+            background-color: var(--secondary);
+            color: var(--primary);
+            text-decoration: underline;
+            text-underline-offset: 0.4em;
+        }
     }
 }
