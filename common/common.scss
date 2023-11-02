@@ -100,17 +100,6 @@ body, h1, h2, h3, h4, h5, h6, a, p {
     color: #ffffff;
 }
 
-
-
-body.category-submit-an-idea .category-breadcrumb, body.category-feature-requests .category-breadcrumb {
-    li {
-        display: none !important;
-    }
-    li:nth-child(2) {
-        display: flex !important;
-    }
-}
-
 /* Fixes by Richard */
 
 
