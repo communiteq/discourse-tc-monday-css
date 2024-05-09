@@ -153,8 +153,7 @@ a.discourse-tag.list-vote-count {
     background-color: #eceff8;
 }
 #category-events-calendar.fc-unthemed .fc-content {
-    background-color: #6161ff;
-    color: #fff;
+    color: var(--primary);
 }
 
 /* new create topic button icon */
